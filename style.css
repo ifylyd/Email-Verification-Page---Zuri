@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+body {
+margin: 0;
+font-family: 'Poppins', sans-serif;
+}
+
+
+/*#### CENTER DIV USING FLEX BOX ####*/
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #efefef;
+  min-height: 100vh;
+}
+
+
+/*#### STYLE INNER CONTAINERS ####*/
+div.white-container {
+padding: 50px 100px;
+background-color: #fff;
+display: inline-block;
+width: 800px;
+min-height: 100vh;
+}
+
+div.logo {
+background-color: #ddd;
+padding: 20px 60px;
+display: inline-block;
+width: 60px;
+}
+
+
+/*#### STYLE HEADING, INTRO AND EMAIL TEXT ####*/
+h1 {
+font-weight: 700;
+font-size: 40px;
+}
+
+p.intro {
+color: #464646;
+margin-left: 15px;
+font-weight: 600;
+font-size: 20px;
+}
+
+p.email-us {
+color: #706f6f;
+margin-left: 20px;
+font-size: 19px;
+font-weight: 600;
+}
+
+    
+/*#### VERIFY BUTTON ####*/
+a.button:link, a.button:visited {
+background-color: #053573;
+color: white;
+padding: 15px 40px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-weight: 600;
+font-size: 30px;
+min-width: 100%;
+margin: 50px 10px 20px;
+}
+
+a.button:hover, a.button:active {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*#### EMAIL LINK ANCHOR ####*/
+a.mail:link, a.mail:visited {
+  color: #b7b4b4;
+}
