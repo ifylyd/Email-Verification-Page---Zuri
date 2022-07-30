@@ -3,7 +3,7 @@
 ### Here is the hosted Github page for this project 👋
 
 
-##### PROJECT - Email Verification Page (Live Preview)
+##### (Live Preview)
 ==> https://ifylyd.github.io/Email-Verification-Page---Zuri/
 
 
