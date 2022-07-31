@@ -77,3 +77,16 @@ a.button:hover, a.button:active {
 a.mail:link, a.mail:visited {
   color: #b7b4b4;
 }
+
+@media screen and (max-width: 700px) {
+p.intro {
+margin-left: 0;
+}
+a.button:link, a.button:visited {
+margin-left: 0;
+    }
+p.email-us {
+margin-left: 0;
+}
+
+}
