@@ -143,6 +143,7 @@ width: 70%;
 
 
 /*#### STYLE HEADING, INTRO AND EMAIL TEXT ####*/
+
 h1 {
 font-weight: 700;
 font-size: 40px;
@@ -213,6 +214,9 @@ h4 {
 
 
 @media screen and (max-width: 700px) {
+.left-column, .menu-column, .right-column {
+    flex: 100%;
+    }
 p.intro {
 margin-left: 0;
 }
